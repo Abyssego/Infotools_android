@@ -2,6 +2,7 @@ Documentation technique - Application de gestion de rendez-vous, pour les commer
 
 Introduction
 Cette documentation technique décrit l'architecture et les fonctionnalités de l'application de gestion de rendez-vous développée pour l'entreprise InfoTools. L'application permet aux utilisateurs de saisir, modifier, et supprimer des rendez-vous, ainsi que de consulter la liste des rendez-vous enregistrés.
+
 ATTENTION :
 L’application possède une clase Bdd.cs pour faire le lien, et est en théorie fonctionnel, mais une erreur de connexion est émise et malgré des recherches et des tests divers, je n’ai trouvé aucune solution qui marchait dans mon cas, c’est pour cela qui sera possible de la modifié, mais impossible de la testé en cas réel, enfin, c’est pour cela qu’un jeu de teste est intégré dans l’application au début de MainPage.xaml.cs et LoginPage.xaml.cs, merci de votre compréhension.
 
