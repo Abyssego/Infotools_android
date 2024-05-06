@@ -67,6 +67,8 @@ namespace infotoolsFinal
             //lesRendezVous.Clear();
             //lesRendezVous = Bdd.SelectRendezVous();
 
+            int numRendezVous = lesRendezVous[^1].NumRendezVous;
+            lesRendezVous.Add(new RendezVous(numRendezVous+1, nomRendezVous, prenomRendezVous, mailRendezVous, telRendezVous, numSirenEntrepriseRendezVous, nomSocieteRendezVous, villeRendezVous, cpRendezVous, adresseRendezVous, dateRendezVous, heureDebutRendezVous, heureFinRendezVous, butRendezVous, descriptionRendezVous, confirmationRendezVous, lesCommerciaux[numCommerciaux]));
 
             // Effacer les champs d'entrée après l'ajout d'un rendez-vous
             ClearInputFields();
